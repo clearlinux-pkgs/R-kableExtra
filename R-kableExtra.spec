@@ -4,7 +4,7 @@
 #
 Name     : R-kableExtra
 Version  : 1.3.4
-Release  : 2
+Release  : 3
 URL      : https://cran.r-project.org/src/contrib/kableExtra_1.3.4.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/kableExtra_1.3.4.tar.gz
 Summary  : Construct Complex Table with 'kable' and Pipe Syntax
@@ -20,6 +20,7 @@ Requires: R-rstudioapi
 Requires: R-rvest
 Requires: R-scales
 Requires: R-stringr
+Requires: R-svglite
 Requires: R-viridisLite
 Requires: R-webshot
 Requires: R-xml2
@@ -55,10 +56,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1615232042
+export SOURCE_DATE_EPOCH=1615231874
 
 %install
-export SOURCE_DATE_EPOCH=1615232042
+export SOURCE_DATE_EPOCH=1615231874
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
