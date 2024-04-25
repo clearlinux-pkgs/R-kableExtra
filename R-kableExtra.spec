@@ -7,7 +7,7 @@
 #
 Name     : R-kableExtra
 Version  : 1.4.0
-Release  : 24
+Release  : 25
 URL      : https://cran.r-project.org/src/contrib/kableExtra_1.4.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/kableExtra_1.4.0.tar.gz
 Summary  : Construct Complex Table with 'kable' and Pipe Syntax
